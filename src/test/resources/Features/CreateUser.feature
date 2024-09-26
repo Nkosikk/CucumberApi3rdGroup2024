@@ -1,3 +1,4 @@
+@CreateUser
 Feature: Create user
 
   Scenario: send a post request to create a user

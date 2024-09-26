@@ -1,4 +1,4 @@
-dd/
+target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -11,7 +11,8 @@ dd/
 *.iws
 *.iml
 *.ipr
-
+allure-results/
+Reports/
 ### Eclipse ###
 .apt_generated
 .classpath
