@@ -26,5 +26,5 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: test-report
-          path: target/surefire-reports/  # Path where Maven Surefire/Failsafe stores reports
-          path2: Reports/  # Path where Maven Surefire/Failsafe stores reports
+          #          path: target/surefire-reports/  # Path where Maven Surefire/Failsafe stores reports
+          path: Reports/  # Path where Maven Surefire/Failsafe stores reports
