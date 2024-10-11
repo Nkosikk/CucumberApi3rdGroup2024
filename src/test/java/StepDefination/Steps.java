@@ -23,8 +23,10 @@ public class Steps {
         RequestSpecification request = RestAssured.given();
         request.header("ContentType", "application/json");
         request.body(userData);
+        request.log().all();
 
         response = request.post(endPoint);
+        response.then().log().all();
     }
 
     @Then("the response status code should be {int}")
