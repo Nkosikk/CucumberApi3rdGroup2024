@@ -27,3 +27,4 @@ jobs:
         with:
           name: test-report
           path: target/surefire-reports/  # Path where Maven Surefire/Failsafe stores reports
+          path2: Reports/  # Path where Maven Surefire/Failsafe stores reports
