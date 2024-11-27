@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
         features = {"src/test/resources/Features"},
         glue = {"StepDefination"},
         plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
-        tags = "@CreateUser",
+        tags = "@getUser",
         publish = true
 )
 public class runner extends AbstractTestNGCucumberTests {
